@@ -1,7 +1,7 @@
 public class Mamifero extends Animal{
 
     //ELO
-    Mamifero(String especie, int qtdPatas){
-        super(especie, qtdPatas);     
+    Mamifero(String nome, int qtdPatas){
+        super(nome, qtdPatas);     
     }
 }

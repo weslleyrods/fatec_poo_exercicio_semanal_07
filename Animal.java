@@ -1,7 +1,8 @@
 public class Animal{
 
-    private String especie;
+    private String nome;
     private int qtdPatas;
+    
 
     //construtor padrão
     Animal(){
@@ -9,22 +10,22 @@ public class Animal{
     }
 
     //construtor que recebe uma String a ser atribuida ao nome do animal
-    Animal(String especie){
-        this.especie = especie;
+    Animal(String nome){
+        this.nome = nome;
     }
 
     //construtor que recebe quantidade de patas e o nome
-    Animal(String especie, int qtdPatas){
+    Animal(String nome, int qtdPatas){
         this.qtdPatas = qtdPatas;
-        this.especie = especie;
+        this.nome = nome;
     }
 
-    public void setEspecie(String especie){
-        this.especie = especie;
+    public void setNome(String nome){
+        this.nome = nome;
     }
 
-    public String getEspecie(){
-        return especie;
+    public String getNome(){
+        return nome;
     }
     
     public void setQtdPatas(int qtdPatas){
